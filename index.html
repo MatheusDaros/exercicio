@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Virtual</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">ShopBR</a>
+      <ul class="links-nav">
+        <li><a href="index.html">Início</a></li>
+        <li>
+          <a href="cart.html" class="link-carrinho" aria-label="Carrinho de compras">
+            <span class="icone-carrinho">🛒</span>
+            <span>Carrinho</span>
+            <span id="contador-carrinho" aria-live="polite">0</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-label="Busca de produtos">
+      <div class="container-busca">
+        <div class="campo-busca-wrapper">
+          <svg class="icone-lupa" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="text"
+            id="campo-busca"
+            placeholder="Buscar produtos..."
+            aria-label="Buscar produtos pelo nome"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Vitrine de produtos">
+      <div class="grade-produtos" id="grade-produtos"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ShopBR — Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --coverage --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
