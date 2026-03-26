@@ -54,6 +54,13 @@ const produtos = [
     preco: 79.90,
     imagem: "img/produto-8.svg",
     descricao: "Garrafa térmica em aço inoxidável com capacidade de 750ml. Mantém bebidas quentes por 12h e geladas por 24h."
+  },
+  {
+    id: 9,
+    nome: "Camisa Brasa Nike",
+    preco: 299.90,
+    imagem: "img/produto-9.svg",
+    descricao: "Camisa Brasa da Nike com design exclusivo inspirado na energia brasileira. Tecido Dri-FIT de alta performance, leve e respirável, ideal para treinos e uso casual."
   }
 ];
 
