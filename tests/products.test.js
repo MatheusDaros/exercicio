@@ -10,8 +10,8 @@ beforeEach(() => {
 });
 
 describe('produtos', () => {
-  test('deve ter 8 produtos', () => {
-    expect(produtos).toHaveLength(8);
+  test('deve ter 9 produtos', () => {
+    expect(produtos).toHaveLength(9);
   });
 
   test('cada produto deve ter id, nome, preco, imagem e descricao', () => {
